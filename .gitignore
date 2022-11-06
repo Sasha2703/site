@@ -23,12 +23,22 @@
 
 # Ignore drupal core (if not versioning drupal sources)
 /core
+/.docksal/
 /modules/README.txt
+/modules/contrib
 /profiles/README.txt
 /sites/README.txt
 /sites/example.sites.php
 /sites/example.settings.local.php
 /sites/development.services.yml
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+/web/sites/default/services.yml
+web/sites/default/default.services.yml
 /themes/README.txt
 /vendor
 /.csslintrc
@@ -44,6 +54,8 @@
 /index.php
 /LICENSE.txt
 /README.txt
+/README.md
+/LICENSE
 /robots.txt
 /update.php
 /web.config
