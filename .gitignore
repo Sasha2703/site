@@ -48,8 +48,6 @@ web/sites/default/default.services.yml
 /.gitattributes
 /.htaccess
 /autoload.php
-/composer.json
-/composer.lock
 /example.gitignore
 /index.php
 /LICENSE.txt
