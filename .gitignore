@@ -23,6 +23,7 @@
 
 # Ignore drupal core (if not versioning drupal sources)
 /core
+.idea/
 /.docksal/
 /modules/README.txt
 /modules/contrib
@@ -39,6 +40,7 @@
 /web/libraries/
 /web/sites/default/services.yml
 web/sites/default/default.services.yml
+web/sites/default/files/
 /themes/README.txt
 /vendor
 /.csslintrc

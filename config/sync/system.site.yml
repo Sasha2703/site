@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 83628681-4fb3-4034-956f-811d936a887b
-name: 'My Drupal 9 Site'
-mail: admin@example.com
+uuid: 3763f831-494f-4ffc-9f1e-a2dc3b6ca67b
+name: site
+mail: o.panasiuk@internetdevels.com
 slogan: ''
 page:
   403: ''

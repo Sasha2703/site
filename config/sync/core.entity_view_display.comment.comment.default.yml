@@ -1,4 +1,4 @@
-uuid: bb75df97-6066-412c-baca-156783139dfa
+uuid: 280a2e47-1ec5-4685-9945-4fc44e901f6a
 langcode: en
 status: true
 dependencies:
@@ -24,4 +24,5 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  langcode: true

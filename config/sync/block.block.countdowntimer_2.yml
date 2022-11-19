@@ -1,0 +1,22 @@
+uuid: 17064842-7de4-4e42-9a15-2c7801469a67
+langcode: uk
+status: true
+dependencies:
+  module:
+    - jquery_countdown_timer
+  theme:
+    - tara
+id: countdowntimer_2
+theme: tara
+region: content
+weight: 0
+provider: null
+plugin: jquery_countdown_timer
+settings:
+  id: jquery_countdown_timer
+  label: 'До кінця реєстрації залишилося'
+  label_display: visible
+  provider: jquery_countdown_timer
+  countdown_datetime: '2023-01-01 00:00:00'
+  font_size: '32'
+visibility: {  }

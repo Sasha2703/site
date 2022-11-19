@@ -1,0 +1,22 @@
+uuid: abe7f6f9-5bb1-4339-982b-17c103b2a402
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - parallax_theme
+_core:
+  default_config_hash: UApb-GbF9pRRJML6r6e33eXgOucYBDo9-fEPKsebAnQ
+id: parallax_theme_breadcrumbs
+theme: parallax_theme
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

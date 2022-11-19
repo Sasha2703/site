@@ -1,0 +1,32 @@
+elements: |
+  name:
+    '#title': 'Введіть ваше ім''я та прізвище'
+  email:
+    '#title': 'Ваша електронна пошта'
+  message:
+    '#title': 'Анотація. Англійською мовою один абзац із 5 рядків тексту'
+  telephone:
+    '#title': 'Номер телефону'
+  degree:
+    '#title': 'Науковий ступінь, вчене звання'
+  organization:
+    '#title': 'Науковий ступінь, вчене звання'
+  country_and_address:
+    '#title': 'Країна та адреса'
+  choose_a_topic:
+    '#title': 'Виберіть тему'
+    '#options':
+      'topic 1': 'тема 1'
+      'topic 2': 'тема 2'
+      'topic 3': 'тема 3'
+      'topic 4': 'тема 4'
+  co_authors_if_any_:
+    '#title': 'Співавтори (якщо є)'
+  subject:
+    '#title': 'Назва доповіді'
+  the_title_of_the_report_is_in_english:
+    '#title': 'Назва доповіді англійською мовою'
+  add_report_materials:
+    '#title': 'Додайте матеріали доповіді'
+  actions:
+    '#submit__label': Надіслати

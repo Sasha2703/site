@@ -1,0 +1,25 @@
+uuid: 587176ed-904b-447b-a816-bf8a431dda8e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - webform
+  theme:
+    - tara
+id: webform_2
+theme: tara
+region: content
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Форма реєстрації'
+  label_display: visible
+  provider: webform
+  webform_id: contact
+  default_data: ''
+  redirect: false
+visibility: {  }

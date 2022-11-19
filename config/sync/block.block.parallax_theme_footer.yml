@@ -1,0 +1,27 @@
+uuid: 52faedf5-8b3e-4384-ae52-7b164780d666
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - parallax_theme
+_core:
+  default_config_hash: GBmyk41I2ZBOpKPcKRpYiiUJJX75xz-8TelZ_m5Xg2c
+id: parallax_theme_footer
+theme: parallax_theme
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

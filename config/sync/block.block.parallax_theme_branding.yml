@@ -1,0 +1,25 @@
+uuid: 70ed4e32-99d8-4792-a8e5-0ae69a0f566d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - parallax_theme
+_core:
+  default_config_hash: siAK1e67EHT0QL9dLWLGFaCuinxY0N0jHsGH0zjHPUI
+id: parallax_theme_branding
+theme: parallax_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

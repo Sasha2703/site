@@ -1,0 +1,22 @@
+uuid: 87bf0557-8591-407a-a1fa-1555818460ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - parallax_theme
+_core:
+  default_config_hash: '-6FrRS1sDI887PMkzsylppCZY0YzZLT_fgxx3gdoOVI'
+id: parallax_theme_messages
+theme: parallax_theme
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }
