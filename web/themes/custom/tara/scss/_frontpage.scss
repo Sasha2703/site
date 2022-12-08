@@ -104,4 +104,15 @@ ul.home-slider {
     display: none;
   }
 }
+.view-committee-s {
+  .views-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .views-col {
+      min-width: 220px;
+    }
+  }
+}
 
