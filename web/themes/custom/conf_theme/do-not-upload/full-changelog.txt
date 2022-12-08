@@ -1,0 +1,111 @@
+03 July 2021
++------------------------------+
+# Removed tara/global-scripts from tara.info.yml file.
+# Deleted global-scripts library.
+# Moved slider initialsation code to html.twig.html
+# Moved slider library from front.html.twig to slider.html.twig
+# Added font size to 1rem to html
+# Removed base.css file. Added it as a scss file.
+# Changed many color code to css variable name.
+# Remove component.css from library. Moved these css codes to shortcode.scss file.
+# Added _shortcode.scss file.
+# Removed responsive.css file
+# Adeed _responsive.scss file.
+# Deleted style-old.css file.
+# Added region.html.twig
+# Added styling to content-top and content-bottom block regions.
+# Fixed responsive layout issue.
+# Removed body font size for mobile devices set to 0.9em
+# Added div, span, button to slider code allowed tags.
+# Changed height to min-height of slider and home-slider
+# Added flex to slider dots
+# Fixed slider dots not visiable bug.
+# Created and added settings.html.twig in html.twig.html
+# Added option for slider image upload in theme settings.
+# Added max-width 100% to input and textarea.
+# Added box-shadow to comment form.
+# Added style to single comment links (reply / edit / delete)
+# Changed style of blockquote and pre
+# Changed column shortcode to flex based.
+** Released version 8.3.0 **
+
+
+04 July 2021
++------------------------------+
+# Added Google material font icons available in premium version.
+# Removed many animation keyframes.
+
+
+07 July 2021
++------------------------------+
+1) Removed width and padding for full, one_three..etc from responsive.scss
+** Released version 8.3.3 **
+
+
+31 July 2022
++------------------------------+
+1) base.scss -> commented this:
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+
+# .form item >> changed margin-bottom to rem unit
+
+# p >> changed margin-bottom unit to rem
+
+# Changed css of html and body
+
+# A now uses primary color
+
+# Replace all #222 by --heading-color
+
+# Change background and border color of th
+# Changed border color
+# Change value of --text-color
+2) Added template file:
+templates/navigation/menu.tml.twig
+
+3) Added css for menu.html.twig in header menu.
+
+4) Responsive.scss
+# Added "text-size-adjust" for max-width 767
+
+# Removed "text-size-adjust" from other places.
+
+# Removed "@media (max-width: 414px)"
+
+# Added required css for menu block using menu.html.twig in header block.
+
+# .footer-block -> changed margin bottom unit to rem
+
+5) Removed all "clear" class from footer.html.twig
+
+6) base.scss updated body >> font-famnily
+
+7) Replaced all color #f4f4ef by variable --body-bg
+
+8) Replaced all #676767 by variable --text-color
+
+9) Replaced all #222222 by --bold-color
+
+10) header.scss >> .search-box-content input[type="search"]
+# changed background-color
+# Removed margin
+# Changed padding value to rem unit.
+
+11) core.scss added required css for calendar
+
+12) Added view/view.html.twig file.
+
+13) changed .node-view-mode-teaser 
+- border-bottom to 4px
+- border color now uses variable.
+
+
+version 9.1.3
+05 Nov 2022
++------------------------------+
+- layout.scss added #front-main with order: 2
+- Added content in readme.md file.

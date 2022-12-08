@@ -1,6 +1,6 @@
 uuid: edaa98ea-04cd-4c44-a7d2-2c4898f1dcfa
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - tara
@@ -9,7 +9,7 @@ _core:
 id: tara_page_title
 theme: tara
 region: content
-weight: -10
+weight: -1
 provider: null
 plugin: page_title_block
 settings:

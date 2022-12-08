@@ -53,10 +53,12 @@ elements: |-
     '#type': select
     '#title': 'Choose a topic'
     '#options':
-      'topic 1': 'topic 1'
-      'topic 2': 'topic 2'
-      'topic 3': 'topic 3'
-      'topic 4': 'topic 4'
+      'topic 1': 'Physical, chemical, technological properties of materials and their structure'
+      'topic 2': 'Technologies for obtaining new materials'
+      'topic 3': 'Computer modeling and information technology in engineering'
+      'topic 4': 'Design of mechatronic systems'
+      'topic 5': 'Modern research and prospects for the development of mechanical engineering'
+      'topic 6': 'Strategies and modern technologies in road transport'
     '#required': true
   co_authors_if_any_:
     '#type': textfield
@@ -288,7 +290,7 @@ handlers:
       sender_mail: ''
       sender_name: ''
       subject: '[webform_submission:values:subject:raw]'
-      body: '[webform_submission:values:message:value]'
+      body: 'Ви успішно зареєструвалися на наукову конференцію.'
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true

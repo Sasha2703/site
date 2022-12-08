@@ -1,0 +1,30 @@
+uuid: 9dab8cc5-6749-46a2-9b97-5304642c9577
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bafd869c-7edc-4e9f-b4b0-3497e54a42af'
+  module:
+    - block_content
+    - system
+  theme:
+    - tara
+id: reestraciya
+theme: tara
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:bafd869c-7edc-4e9f-b4b0-3497e54a42af'
+settings:
+  id: 'block_content:bafd869c-7edc-4e9f-b4b0-3497e54a42af'
+  label: Реєстрація
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

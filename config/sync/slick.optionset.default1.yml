@@ -1,0 +1,50 @@
+uuid: ce0fdae3-ed48-405a-82a6-54aea67d1fca
+langcode: uk
+status: true
+dependencies: {  }
+id: default1
+name: default1
+weight: 0
+label: Default1
+group: ''
+skin: default
+breakpoints: 3
+optimized: true
+options:
+  options__active_tab: edit-options-settings
+  settings:
+    lazyLoad: ondemand
+    rows: 3
+    slidesToShow: 3
+  responsives:
+    responsive:
+      -
+        breakpoint: null
+        unslick: false
+        settings:
+          arrows: false
+          draggable: false
+          infinite: false
+          swipe: false
+          touchMove: false
+          waitForAnimate: false
+      -
+        breakpoint: null
+        unslick: false
+        settings:
+          arrows: false
+          draggable: false
+          infinite: false
+          swipe: false
+          touchMove: false
+          waitForAnimate: false
+      -
+        breakpoint: null
+        unslick: false
+        settings:
+          arrows: false
+          draggable: false
+          infinite: false
+          swipe: false
+          touchMove: false
+          waitForAnimate: false

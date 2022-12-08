@@ -1,0 +1,11 @@
+uuid: 99c7538d-d3d7-4794-a994-fca76e349953
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.committee
+id: node.committee
+target_entity_type_id: node
+target_bundle: committee
+default_langcode: site_default
+language_alterable: false

@@ -4,12 +4,13 @@ status: true
 dependencies:
   module:
     - jquery_countdown_timer
+    - system
   theme:
     - tara
 id: countdowntimer_2
 theme: tara
 region: content
-weight: 0
+weight: -9
 provider: null
 plugin: jquery_countdown_timer
 settings:
@@ -19,4 +20,8 @@ settings:
   provider: jquery_countdown_timer
   countdown_datetime: '2023-01-01 00:00:00'
   font_size: '32'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
