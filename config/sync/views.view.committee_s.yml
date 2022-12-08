@@ -377,7 +377,7 @@ display:
           type: image
           settings:
             image_link: ''
-            image_style: medium
+            image_style: ''
             image_loading:
               attribute: lazy
           group_column: ''
@@ -570,70 +570,6 @@ display:
       display_description: ''
       display_extenders: {  }
       block_description: 'ГОЛОВНІ СПІКЕРИ'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - user
-        - 'user.node_grants:view'
-      tags:
-        - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_image_committee'
-  block_3:
-    id: block_3
-    display_title: 'Block 3'
-    display_plugin: block
-    position: 3
-    display_options:
-      title: Test
-      style:
-        type: slick
-        options:
-          caption:
-            body: body
-            field_image_committee: field_image_committee
-          optionset: default2
-          class: ''
-          id: ''
-          image: ''
-          link: ''
-          overlay: ''
-          title: ''
-          vanilla: false
-          layout: ''
-          cache: 0
-          skin: ''
-          style: ''
-          grid: ''
-          grid_medium: ''
-          grid_small: ''
-          overridables:
-            arrows: '0'
-            autoplay: '0'
-            dots: '0'
-            draggable: '0'
-            infinite: '0'
-            mouseWheel: '0'
-            randomize: '0'
-            variableWidth: '0'
-          thumbnail: ''
-          optionset_thumbnail: ''
-          skin_thumbnail: ''
-          thumbnail_effect: ''
-          thumbnail_position: ''
-          override: false
-          preserve_keys: false
-          visible_items: null
-      row:
-        type: fields
-        options: {  }
-      defaults:
-        title: false
-        style: false
-        row: false
-      display_extenders: {  }
-      block_description: Test
     cache_metadata:
       max-age: -1
       contexts:
