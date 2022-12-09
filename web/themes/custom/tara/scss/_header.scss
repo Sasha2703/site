@@ -2,7 +2,16 @@
 --------------------------------------*/
 /* Header container */
 #header {
-  position: relative;
+  position: sticky;
+  top: -51px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 5;
+}
+#header_admin {
+  position: sticky;
+  top: 30px;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -34,6 +43,12 @@
   position: relative;
   margin: 0;
   padding: 0;
+}
+.language-switcher-language-url {
+  .links {
+    display: flex;
+    gap: 10px;
+  }
 }
 .header-top-left i {
   width: 36px;

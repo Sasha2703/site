@@ -84,6 +84,12 @@ ul.home-slider {
   font-size: 2rem;
   font-weight: 300;
   text-align: center;
+  text-transform: uppercase;
+}
+#block-countdowntimer-2 {
+  h3.block-title {
+    text-transform: inherit;
+  }
 }
 .homepage-content h3.block-title::after {
   position: absolute;

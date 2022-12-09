@@ -29,7 +29,8 @@
         "drupal/smtp": "^1.2",
         "drupal/tara": "^9.1",
         "drupal/webform": "^6.2@beta",
-        "drush/drush": "^10.2"
+        "drush/drush": "^10.2",
+        "symfony/twig-bridge": "*"
     },
     "conflict": {
         "drupal/drupal": "*"

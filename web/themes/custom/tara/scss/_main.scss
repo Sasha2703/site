@@ -273,6 +273,10 @@ nav.pager {
   }
 }
 .webform-submission-contact-form {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   textarea {
     max-width: 701px;
   }
@@ -285,5 +289,14 @@ nav.pager {
       width: 100%;
     }
   }
+  @media screen and (max-width: 767px) {
+    textarea {
+      max-width: 598px;
+    }
+    .form-item-choose-a-topic {
+      select {
+        max-width: 598px;
+      }
+    }
+  }
 }
-
