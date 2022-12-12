@@ -939,7 +939,10 @@ ul.social-icons li a:hover {
 
 .site-branding img {
   width: auto;
-  max-height: 80px;
+  max-height: 100px;
+  border: black 1px solid;
+  border-left: 0;
+  border-right: 0;
 }
 
 .site-name-slogan {
@@ -1043,7 +1046,7 @@ ul.main-menu > li > a,
 .region-primary-menu .menu > li > a {
   display: block;
   margin: 0;
-  padding: 16px 10px;
+  padding: 16px 8px;
   text-transform: uppercase;
 }
 
