@@ -1,0 +1,11 @@
+uuid: 29efa884-ff79-495d-a0fe-36cb49058ff3
+langcode: uk
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sponsors
+id: taxonomy_term.sponsors
+target_entity_type_id: taxonomy_term
+target_bundle: sponsors
+default_langcode: site_default
+language_alterable: false

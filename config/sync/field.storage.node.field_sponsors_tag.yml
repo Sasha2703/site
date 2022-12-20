@@ -1,0 +1,20 @@
+uuid: c0167fa6-23da-4126-a2f8-30930d7e4d50
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_sponsors_tag
+field_name: field_sponsors_tag
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

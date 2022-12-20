@@ -17,7 +17,7 @@ provider: null
 plugin: 'block_content:a034ab28-32d0-4ffc-89aa-6c9b6dbfc53c'
 settings:
   id: 'block_content:a034ab28-32d0-4ffc-89aa-6c9b6dbfc53c'
-  label: 'Facts and figures about MTE-2023'
+  label: 'Факти та цифри про МТІ-2023'
   label_display: visible
   provider: block_content
   status: true

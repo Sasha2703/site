@@ -1,0 +1,38 @@
+uuid: 7592fea0-33a7-4f53-868e-0488e3b90b2a
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_organizers_and_partners
+    - node.type.organizers_and_partners
+  module:
+    - image
+id: node.organizers_and_partners.field_organizers_and_partners
+field_name: field_organizers_and_partners
+entity_type: node
+bundle: organizers_and_partners
+label: 'Organizers and partners'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

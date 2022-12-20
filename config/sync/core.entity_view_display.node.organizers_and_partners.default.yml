@@ -1,0 +1,42 @@
+uuid: 85cdccf3-765e-4bdc-9610-3064ea5dfd71
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.organizers_and_partners.body
+    - field.field.node.organizers_and_partners.field_organizers_and_partners
+    - node.type.organizers_and_partners
+  module:
+    - image
+    - text
+    - user
+id: node.organizers_and_partners.default
+targetEntityType: node
+bundle: organizers_and_partners
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_organizers_and_partners:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

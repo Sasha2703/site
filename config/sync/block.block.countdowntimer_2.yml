@@ -18,7 +18,7 @@ settings:
   label: 'До кінця реєстрації залишилося'
   label_display: visible
   provider: jquery_countdown_timer
-  countdown_datetime: '2023-05-01 00:00:00'
+  countdown_datetime: '2023-01-01 00:00:00'
   font_size: '32'
 visibility:
   request_path:

@@ -1,0 +1,23 @@
+uuid: 5f70a280-993b-4dc2-b565-c872a8cce7dd
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.organizers_and_partners
+  module:
+    - text
+id: node.organizers_and_partners.body
+field_name: body
+entity_type: node
+bundle: organizers_and_partners
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,29 @@
+uuid: 4b9242f8-997f-4154-b59f-cf237e05db5d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.sponsors
+  module:
+    - system
+    - views
+  theme:
+    - tara
+id: views_block__sponsors_block_2
+theme: tara
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:sponsors-block_2'
+settings:
+  id: 'views_block:sponsors-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /media-sponsors

@@ -1,0 +1,11 @@
+uuid: dbf6a06e-b512-403a-b2dd-58fb1468092d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.organizers_and_partners
+id: node.organizers_and_partners
+target_entity_type_id: node
+target_bundle: organizers_and_partners
+default_langcode: site_default
+language_alterable: false

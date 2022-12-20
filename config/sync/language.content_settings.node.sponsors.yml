@@ -1,0 +1,11 @@
+uuid: c219d6d0-ca9d-489c-add5-e20319115a5e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.sponsors
+id: node.sponsors
+target_entity_type_id: node
+target_bundle: sponsors
+default_langcode: site_default
+language_alterable: false
