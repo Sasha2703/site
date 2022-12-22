@@ -2021,6 +2021,30 @@ ul.home-slider {
   min-width: 220px;
 }
 
+.slick-slide img {
+  width: 100%;
+  max-height: 600px;
+}
+
+#line-img {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+#line-img img {
+  max-width: 49%;
+}
+
+#line-img-top {
+  display: flex;
+  justify-content: center;
+}
+
+#line-img-top img {
+  max-width: 100%;
+}
+
 /* Pages
 -------------------------------------------- */
 /* maintenance page*/

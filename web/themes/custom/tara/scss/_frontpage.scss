@@ -121,4 +121,22 @@ ul.home-slider {
     }
   }
 }
-
+.slick-slide img {
+  width: 100%;
+  max-height: 600px;
+}
+#line-img {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  img {
+    max-width: 49%;
+  }
+}
+#line-img-top {
+  display: flex;
+  justify-content: center;
+  img {
+    max-width: 100%;
+  }
+}
