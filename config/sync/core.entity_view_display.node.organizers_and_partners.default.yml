@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.organizers_and_partners.body
+    - field.field.node.organizers_and_partners.field_name
     - field.field.node.organizers_and_partners.field_organizers_and_partners
     - node.type.organizers_and_partners
   module:
@@ -21,6 +22,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_name:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
     region: content
   field_organizers_and_partners:
     type: image

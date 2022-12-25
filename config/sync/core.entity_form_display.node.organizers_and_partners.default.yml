@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.organizers_and_partners.body
+    - field.field.node.organizers_and_partners.field_name
     - field.field.node.organizers_and_partners.field_organizers_and_partners
     - image.style.thumbnail
     - node.type.organizers_and_partners
@@ -31,6 +32,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_name:
+    type: string_textarea
+    weight: 123
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
     third_party_settings: {  }
   field_organizers_and_partners:
     type: image_image

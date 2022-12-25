@@ -1,0 +1,19 @@
+uuid: b73e4c2a-6bc9-427a-9852-33a107a236b0
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.organizers_and_partners
+id: node.organizers_and_partners.field_name
+field_name: field_name
+entity_type: node
+bundle: organizers_and_partners
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

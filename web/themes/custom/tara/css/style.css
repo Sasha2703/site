@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Variables
 -------------------------------------------- */
 :root {
@@ -3195,6 +3196,56 @@ nav.pager::after {
     width: 100%;
     max-width: 1170px;
   }
+}
+
+.views-partners {
+  display: flex;
+  gap: 30px;
+}
+
+.views-partners:first-child {
+  display: flex;
+  gap: 0;
+  justify-content: center;
+}
+
+.views-field-field-organizers-and-partners img {
+  width: 220px;
+}
+
+.views-field-field-organizers-and-partners img[alt="ЛНТУ"] {
+  width: 100%;
+  min-width: 555px;
+}
+
+.views-field-field-name {
+  align-items: center;
+  display: flex;
+}
+
+.views-field-field-name .field-content {
+  font-size: 22px;
+}
+
+.view-committee-s .views-block-org:first-child .views-field-field-image-committee img {
+  width: 270px;
+}
+
+.view-committee-s .views-block-org {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  gap: 30px;
+}
+
+.view-committee-s .views-block-org .views-field-field-image-committee img {
+  width: 220px;
+  height: auto;
+}
+
+.view-committee-s .views-block-org .views-field-body {
+  align-items: center;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
