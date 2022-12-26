@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.sponsors.body
+    - field.field.node.sponsors.field_link_sponsors
     - field.field.node.sponsors.field_sponsors_image
     - field.field.node.sponsors.field_sponsors_tag
     - node.type.sponsors
@@ -21,18 +22,15 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 1
     region: content
   field_sponsors_image:
-    type: image
+    type: image_url
     label: above
     settings:
-      image_link: ''
       image_style: ''
-      image_loading:
-        attribute: lazy
     third_party_settings: {  }
-    weight: 102
+    weight: 2
     region: content
   field_sponsors_tag:
     type: entity_reference_label
@@ -40,12 +38,13 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 103
+    weight: 3
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
+  field_link_sponsors: true
   langcode: true

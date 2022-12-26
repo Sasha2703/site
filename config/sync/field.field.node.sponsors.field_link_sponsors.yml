@@ -1,0 +1,23 @@
+uuid: 9e687749-2cdb-40c8-8b09-de9414cc9964
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_sponsors
+    - node.type.sponsors
+  module:
+    - link
+id: node.sponsors.field_link_sponsors
+field_name: field_link_sponsors
+entity_type: node
+bundle: sponsors
+label: 'Link Sponsors'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

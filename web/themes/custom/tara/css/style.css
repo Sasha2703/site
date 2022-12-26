@@ -3269,4 +3269,8 @@ nav.pager::after {
   width: 100%;
 }
 
+.views-field-field-sponsors-image img[alt="Мотор"] {
+  background-image: url(https://www.skf.com/ua);
+}
+
 /*# sourceMappingURL=style.css.map */

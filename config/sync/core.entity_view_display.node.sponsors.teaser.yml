@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.sponsors.body
+    - field.field.node.sponsors.field_link_sponsors
     - field.field.node.sponsors.field_sponsors_image
     - field.field.node.sponsors.field_sponsors_tag
     - node.type.sponsors
@@ -30,6 +31,7 @@ content:
     weight: 100
     region: content
 hidden:
+  field_link_sponsors: true
   field_sponsors_image: true
   field_sponsors_tag: true
   langcode: true

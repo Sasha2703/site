@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.organizers_and_partners.body
+    - field.field.node.organizers_and_partners.field_link_organizers
     - field.field.node.organizers_and_partners.field_name
     - field.field.node.organizers_and_partners.field_organizers_and_partners
     - node.type.organizers_and_partners
@@ -30,6 +31,7 @@ content:
     weight: 100
     region: content
 hidden:
+  field_link_organizers: true
   field_name: true
   field_organizers_and_partners: true
   langcode: true

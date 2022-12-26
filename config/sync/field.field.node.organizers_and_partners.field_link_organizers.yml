@@ -1,0 +1,23 @@
+uuid: c462316e-88e5-4bc9-99f2-eeef91f673ff
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_organizers
+    - node.type.organizers_and_partners
+  module:
+    - link
+id: node.organizers_and_partners.field_link_organizers
+field_name: field_link_organizers
+entity_type: node
+bundle: organizers_and_partners
+label: 'Link Organizers'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

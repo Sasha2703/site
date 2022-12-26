@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.organizers_and_partners.body
+    - field.field.node.organizers_and_partners.field_link_organizers
     - field.field.node.organizers_and_partners.field_name
     - field.field.node.organizers_and_partners.field_organizers_and_partners
     - node.type.organizers_and_partners
@@ -21,14 +22,14 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 1
     region: content
   field_name:
     type: basic_string
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 103
+    weight: 3
     region: content
   field_organizers_and_partners:
     type: image
@@ -39,12 +40,13 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 102
+    weight: 2
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
+  field_link_organizers: true
   langcode: true

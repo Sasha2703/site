@@ -3,6 +3,7 @@ langcode: uk
 status: true
 dependencies:
   config:
+    - field.storage.node.field_link_sponsors
     - field.storage.node.field_sponsors_image
     - image.style.large
     - image.style.medium
@@ -13,6 +14,7 @@ dependencies:
     - 'taxonomy_term:sponsors:daa47bdd-3d7e-4f8c-a19d-b83d72e41040'
   module:
     - image
+    - link
     - node
     - taxonomy
 id: sponsors
@@ -241,16 +243,16 @@ display:
     position: 1
     display_options:
       fields:
-        field_sponsors_image:
-          id: field_sponsors_image
-          table: node__field_sponsors_image
-          field: field_sponsors_image
+        field_link_sponsors:
+          id: field_link_sponsors
+          table: node__field_link_sponsors
+          field: field_link_sponsors
           relationship: none
           group_type: group
           admin_label: ''
           plugin_id: field
           label: ''
-          exclude: false
+          exclude: true
           alter:
             alter_text: false
             text: ''
@@ -264,6 +266,73 @@ display:
             alt: ''
             rel: ''
             link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: uri
+          type: link
+          settings:
+            trim_length: 80
+            url_only: false
+            url_plain: false
+            rel: '0'
+            target: _blank
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_sponsors_image:
+          id: field_sponsors_image
+          table: node__field_sponsors_image
+          field: field_sponsors_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: '<a href="[field_link_sponsors]">[field_sponsors_image]</a>'
+            make_link: true
+            path: '{{ field_link_sponsors }}'
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: link-sponsors
             prefix: ''
             suffix: ''
             target: ''
@@ -334,6 +403,7 @@ display:
         - user
         - 'user.node_grants:view'
       tags:
+        - 'config:field.storage.node.field_link_sponsors'
         - 'config:field.storage.node.field_sponsors_image'
   block_2:
     id: block_2
@@ -343,6 +413,73 @@ display:
     display_options:
       title: 'Медійні спонсори'
       fields:
+        field_link_sponsors:
+          id: field_link_sponsors
+          table: node__field_link_sponsors
+          field: field_link_sponsors
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: uri
+          type: link
+          settings:
+            trim_length: 80
+            url_only: false
+            url_plain: false
+            rel: '0'
+            target: '0'
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
         field_sponsors_image:
           id: field_sponsors_image
           table: node__field_sponsors_image
@@ -356,8 +493,8 @@ display:
           alter:
             alter_text: false
             text: ''
-            make_link: false
-            path: ''
+            make_link: true
+            path: '{{ field_link_sponsors }}'
             absolute: false
             external: false
             replace_spaces: false
@@ -516,4 +653,5 @@ display:
         - user
         - 'user.node_grants:view'
       tags:
+        - 'config:field.storage.node.field_link_sponsors'
         - 'config:field.storage.node.field_sponsors_image'
