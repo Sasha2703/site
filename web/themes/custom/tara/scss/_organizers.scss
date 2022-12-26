@@ -44,3 +44,22 @@
     }
   }
 }
+.col-sponsors {
+  display: flex;
+  justify-content: center;
+}
+.views-col-sponsors {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.row-sponsors {
+  display: flex;
+  align-items: center;
+}
+.book {
+  img {
+    max-width: 480px;
+    width: 100%;
+  }
+}

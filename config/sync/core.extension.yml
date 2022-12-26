@@ -45,6 +45,7 @@ module:
   rdf: 0
   search: 0
   shortcut: 0
+  simple_gmap: 0
   slick: 0
   slick_ui: 0
   slick_views: 0

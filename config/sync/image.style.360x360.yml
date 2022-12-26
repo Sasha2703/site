@@ -1,0 +1,15 @@
+uuid: f2ebf64a-545f-4306-ad2e-64b5d7bfc615
+langcode: uk
+status: true
+dependencies: {  }
+name: 360x360
+label: 360x360
+effects:
+  33a39a5e-9b9a-4155-8dc0-c1499de549fb:
+    uuid: 33a39a5e-9b9a-4155-8dc0-c1499de549fb
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      anchor: center-center
