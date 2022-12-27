@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_tags_com
     - node.type.committee
     - taxonomy.vocabulary.tags
+  content:
+    - 'taxonomy_term:tags:635faa02-7864-4807-a047-620224cbf95d'
 id: node.committee.field_tags_com
 field_name: field_tags_com
 entity_type: node
@@ -14,7 +16,9 @@ label: Tags
 description: ''
 required: false
 translatable: false
-default_value: {  }
+default_value:
+  -
+    target_uuid: 635faa02-7864-4807-a047-620224cbf95d
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'

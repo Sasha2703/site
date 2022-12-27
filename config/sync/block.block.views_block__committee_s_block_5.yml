@@ -1,0 +1,29 @@
+uuid: b4569060-a40b-42b1-abe4-a603cedc6151
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.committee_s
+  module:
+    - system
+    - views
+  theme:
+    - tara
+id: views_block__committee_s_block_5
+theme: tara
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:committee_s-block_5'
+settings:
+  id: 'views_block:committee_s-block_5'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /international-committee

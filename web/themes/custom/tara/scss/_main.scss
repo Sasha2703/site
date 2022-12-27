@@ -248,7 +248,9 @@ nav.pager {
     font-size: 24px;
     text-align: center;
     span {
-      padding: 0 10px;
+      padding: 10px 20px;
+      border: 1px solid darkgrey;
+      border-radius: 25px;
     }
   }
 }
@@ -299,4 +301,12 @@ nav.pager {
       }
     }
   }
+}
+.facts-h3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 10px;
+
 }

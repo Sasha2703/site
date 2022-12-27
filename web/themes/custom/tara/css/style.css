@@ -1631,7 +1631,9 @@ nav.pager {
 }
 
 #block-faktitacifripromti2023 h3 span {
-  padding: 0 10px;
+  padding: 10px 20px;
+  border: 1px solid darkgrey;
+  border-radius: 25px;
 }
 
 .views-field-field-image-committee .image-field {
@@ -1684,6 +1686,13 @@ nav.pager {
   .webform-submission-contact-form .form-item-choose-a-topic select {
     max-width: 598px;
   }
+}
+
+.facts-h3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 /* Block Regions
@@ -3231,6 +3240,14 @@ nav.pager::after {
   width: 270px;
 }
 
+.view-committee-s .views-block-org:first-child .views-field-field-image-committee img[alt="Генадій Баглюк"] {
+  width: 238px;
+}
+
+.view-committee-s .views-block-org:first-child .views-field-field-image-committee img[alt="Krzysztof Jan Kurzydłowski"] {
+  width: 220px;
+}
+
 .view-committee-s .views-block-org {
   display: flex;
   flex-wrap: nowrap;
@@ -3241,6 +3258,14 @@ nav.pager::after {
 .view-committee-s .views-block-org .views-field-field-image-committee img {
   width: 220px;
   height: auto;
+}
+
+.view-committee-s .views-block-org .views-field-field-image-committee img[alt="Тетяна Роїк"] {
+  width: 272px;
+}
+
+.view-committee-s .views-block-org .views-field-field-image-committee img[alt="Олександр Васільєв"] {
+  width: 336px;
 }
 
 .view-committee-s .views-block-org .views-field-body {
@@ -3267,10 +3292,6 @@ nav.pager::after {
 .book img {
   max-width: 480px;
   width: 100%;
-}
-
-.views-field-field-sponsors-image img[alt="Мотор"] {
-  background-image: url(https://www.skf.com/ua);
 }
 
 /*# sourceMappingURL=style.css.map */

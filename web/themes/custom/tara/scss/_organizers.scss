@@ -26,6 +26,12 @@
     .views-field-field-image-committee img{
       width: 270px;
     }
+    .views-field-field-image-committee img[alt="Генадій Баглюк"] {
+      width: 238px;
+    }
+    .views-field-field-image-committee img[alt="Krzysztof Jan Kurzydłowski"] {
+      width: 220px;
+    }
   }
   .views-block-org {
     display: flex;
@@ -33,9 +39,15 @@
     justify-content: start;
     gap: 30px;
 
-    .views-field-field-image-committee img{
+    .views-field-field-image-committee img {
       width: 220px;
       height: auto;
+    }
+    .views-field-field-image-committee img[alt="Тетяна Роїк"]{
+      width: 272px;
+    }
+    .views-field-field-image-committee img[alt="Олександр Васільєв"]{
+      width: 336px;
     }
 
     .views-field-body {
@@ -63,8 +75,4 @@
     width: 100%;
   }
 }
-.views-field-field-sponsors-image {
-  img[alt="Мотор"]{
-    background-image: url(https://www.skf.com/ua);
-  }
-}
+
