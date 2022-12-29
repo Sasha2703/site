@@ -17,7 +17,7 @@ provider: null
 plugin: 'block_content:2df02ff4-f6ba-422d-b8f4-ed558b26a1d8'
 settings:
   id: 'block_content:2df02ff4-f6ba-422d-b8f4-ed558b26a1d8'
-  label: 'Основні теми конференції'
+  label: 'The main topics of the conference'
   label_display: visible
   provider: block_content
   status: true

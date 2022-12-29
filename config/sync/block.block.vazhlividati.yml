@@ -17,7 +17,7 @@ provider: null
 plugin: 'block_content:56a74fb7-71d4-4066-b70c-944f9104c877'
 settings:
   id: 'block_content:56a74fb7-71d4-4066-b70c-944f9104c877'
-  label: 'Важливі дати'
+  label: 'Important dates'
   label_display: visible
   provider: block_content
   status: true

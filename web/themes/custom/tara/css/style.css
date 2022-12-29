@@ -3220,6 +3220,11 @@ nav.pager::after {
 
 .views-field-field-organizers-and-partners img {
   width: 220px;
+  border-radius: 15px;
+}
+
+.views-field-field-organizers-and-partners img[alt="Вітовта Великого"] {
+  border-radius: 0;
 }
 
 .views-field-field-organizers-and-partners img[alt="ЛНТУ"] {
@@ -3234,18 +3239,7 @@ nav.pager::after {
 
 .views-field-field-name .field-content {
   font-size: 22px;
-}
-
-.view-committee-s .views-block-org:first-child .views-field-field-image-committee img {
-  width: 270px;
-}
-
-.view-committee-s .views-block-org:first-child .views-field-field-image-committee img[alt="Генадій Баглюк"] {
-  width: 238px;
-}
-
-.view-committee-s .views-block-org:first-child .views-field-field-image-committee img[alt="Krzysztof Jan Kurzydłowski"] {
-  width: 220px;
+  font-style: italic;
 }
 
 .view-committee-s .views-block-org {
@@ -3265,12 +3259,18 @@ nav.pager::after {
 }
 
 .view-committee-s .views-block-org .views-field-field-image-committee img[alt="Олександр Васільєв"] {
-  width: 336px;
+  width: 330px;
+}
+
+.view-committee-s .views-block-org .views-field-field-image-committee img[alt="ОлександрВасільєв"] {
+  width: 263px;
 }
 
 .view-committee-s .views-block-org .views-field-body {
   align-items: center;
   display: flex;
+  font-size: 22px;
+  line-height: 20px;
 }
 
 .col-sponsors {
@@ -3292,6 +3292,15 @@ nav.pager::after {
 .book img {
   max-width: 480px;
   width: 100%;
+}
+
+.gmaps {
+  float: right;
+}
+
+.name-professors {
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
