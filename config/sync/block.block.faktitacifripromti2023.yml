@@ -12,12 +12,12 @@ dependencies:
 id: faktitacifripromti2023
 theme: tara
 region: content
-weight: -10
+weight: -9
 provider: null
 plugin: 'block_content:a034ab28-32d0-4ffc-89aa-6c9b6dbfc53c'
 settings:
   id: 'block_content:a034ab28-32d0-4ffc-89aa-6c9b6dbfc53c'
-  label: 'Факти та цифри про МТІ-2023'
+  label: 'Facts and figures about MTE-2023'
   label_display: visible
   provider: block_content
   status: true

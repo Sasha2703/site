@@ -225,6 +225,31 @@ nav.pager {
 .countdownHolder, #jquery-countdown-timer-note, #block-reestraciya {
   text-align: center;
 }
+.block-content {
+  span {
+    font-size: 20px !important;
+    @media (max-width: 1140px) {
+      font-size: 19px !important;
+    }
+    @media (max-width: 991px) {
+      font-size: 18px !important;
+    }
+    @media (max-width: 600px) {
+      font-size: 16px !important;
+    }
+  }
+}
+#jquery-countdown-timer {
+  span {
+    font-size: 40px !important;
+    @media (max-width: 600px) {
+      font-size: 32px !important;
+    }
+    @media (max-width: 480px) {
+      font-size: 22px !important;
+    }
+  }
+}
 #block-reestraciya {
   .block-content .field-item {
     p {
@@ -244,6 +269,9 @@ nav.pager {
   }
 }
 #block-faktitacifripromti2023 {
+  h3.block-title {
+    font-size: 36px;
+  }
   h3 {
     font-size: 24px;
     text-align: center;
@@ -275,12 +303,15 @@ nav.pager {
   }
 }
 .webform-submission-contact-form {
-  max-width: 700px;
+  max-width: 660px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   textarea {
-    max-width: 701px;
+    max-width: 660px;
+  }
+  input {
+    max-width: 660px;
   }
   .form-item-choose-a-topic {
     select {
@@ -308,15 +339,25 @@ nav.pager {
   flex-wrap: wrap;
   gap: 10px;
 }
-#block-link {
+#block-links {
   position: fixed;
   right: 3%;
-
+  top: 40%;
   p {
     margin: 0;
   }
-
   #icon {
     max-width: 35px;
+  }
+  @media (max-width: 700px) {
+    font-size: 14px;
+    padding: 9px;
+    right: 1%;
+    #icon {
+      max-width: 22px;
+    }
+  }
+  @media (max-width: 480px) {
+    display: none;
   }
 }

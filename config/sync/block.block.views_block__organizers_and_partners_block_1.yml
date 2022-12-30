@@ -12,7 +12,7 @@ dependencies:
 id: views_block__organizers_and_partners_block_1
 theme: tara
 region: content
-weight: -5
+weight: -4
 provider: null
 plugin: 'views_block:organizers_and_partners-block_1'
 settings:

@@ -45,6 +45,14 @@
       font-size: 22px;
       line-height: 20px;
     }
+    @media (max-width: 540px) {
+      flex-direction: column;
+      gap: 10px;
+      .views-field-field-image-committee .field-content{
+        display: flex;
+        justify-content: center;
+      }
+    }
   }
 }
 .col-sponsors {
@@ -72,4 +80,9 @@
 .name-professors {
   text-transform: uppercase;
   font-weight: 600;
+}
+@media (max-width: 991px) {
+  span.name-professors {
+    font-size: 18px !important;
+  }
 }

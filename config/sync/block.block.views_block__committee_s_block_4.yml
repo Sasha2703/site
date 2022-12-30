@@ -12,7 +12,7 @@ dependencies:
 id: views_block__committee_s_block_4
 theme: tara
 region: content
-weight: -1
+weight: 0
 provider: null
 plugin: 'views_block:committee_s-block_4'
 settings:

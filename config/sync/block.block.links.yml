@@ -1,22 +1,22 @@
-uuid: 5fed7628-d201-4e07-9231-274cb3600aaf
+uuid: b97b4ce5-e14d-4ade-9c60-9dcb5dec7f42
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:f28e4b1a-71d9-4ca0-a3e6-1ae485cbf280'
+    - 'block_content:basic:d9a8fc41-2550-4abc-84de-92c1bbf0483a'
   module:
     - block_content
   theme:
     - tara
-id: link
+id: links
 theme: tara
 region: content_top
 weight: -14
 provider: null
-plugin: 'block_content:f28e4b1a-71d9-4ca0-a3e6-1ae485cbf280'
+plugin: 'block_content:d9a8fc41-2550-4abc-84de-92c1bbf0483a'
 settings:
-  id: 'block_content:f28e4b1a-71d9-4ca0-a3e6-1ae485cbf280'
-  label: Link
+  id: 'block_content:d9a8fc41-2550-4abc-84de-92c1bbf0483a'
+  label: Links
   label_display: '0'
   provider: block_content
   status: true

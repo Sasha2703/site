@@ -1611,6 +1611,44 @@ nav.pager {
   text-align: center;
 }
 
+.block-content span {
+  font-size: 20px !important;
+}
+
+@media (max-width: 1140px) {
+  .block-content span {
+    font-size: 19px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .block-content span {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .block-content span {
+    font-size: 16px !important;
+  }
+}
+
+#jquery-countdown-timer span {
+  font-size: 40px !important;
+}
+
+@media (max-width: 600px) {
+  #jquery-countdown-timer span {
+    font-size: 32px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #jquery-countdown-timer span {
+    font-size: 22px !important;
+  }
+}
+
 #block-reestraciya .block-content .field-item p a {
   font-size: 22px;
   padding: 15px 30px;
@@ -1623,6 +1661,10 @@ nav.pager {
 #block-reestraciya .block-content .field-item p a:hover {
   transition: all 1s;
   background: transparent;
+}
+
+#block-faktitacifripromti2023 h3.block-title {
+  font-size: 36px;
 }
 
 #block-faktitacifripromti2023 h3 {
@@ -1661,14 +1703,18 @@ nav.pager {
 }
 
 .webform-submission-contact-form {
-  max-width: 700px;
+  max-width: 660px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
 }
 
 .webform-submission-contact-form textarea {
-  max-width: 701px;
+  max-width: 660px;
+}
+
+.webform-submission-contact-form input {
+  max-width: 660px;
 }
 
 .webform-submission-contact-form .form-item-choose-a-topic select {
@@ -1695,17 +1741,35 @@ nav.pager {
   gap: 10px;
 }
 
-#block-link {
+#block-links {
   position: fixed;
   right: 3%;
+  top: 40%;
 }
 
-#block-link p {
+#block-links p {
   margin: 0;
 }
 
-#block-link #icon {
+#block-links #icon {
   max-width: 35px;
+}
+
+@media (max-width: 700px) {
+  #block-links {
+    font-size: 14px;
+    padding: 9px;
+    right: 1%;
+  }
+  #block-links #icon {
+    max-width: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  #block-links {
+    display: none;
+  }
 }
 
 /* Block Regions
@@ -1714,6 +1778,7 @@ nav.pager {
   position: relative;
   text-align: center;
   padding-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .block-title:after {
@@ -3275,6 +3340,17 @@ nav.pager::after {
   line-height: 20px;
 }
 
+@media (max-width: 540px) {
+  .view-committee-s .views-block-org {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .view-committee-s .views-block-org .views-field-field-image-committee .field-content {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .col-sponsors {
   display: flex;
   justify-content: center;
@@ -3303,6 +3379,12 @@ nav.pager::after {
 .name-professors {
   text-transform: uppercase;
   font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  span.name-professors {
+    font-size: 18px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,7 +12,7 @@ dependencies:
 id: osnovnivimogidotez
 theme: tara
 region: content
-weight: 1
+weight: 2
 provider: null
 plugin: 'block_content:f49ce074-10d0-4229-ab66-09ddc927427e'
 settings:

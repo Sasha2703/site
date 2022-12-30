@@ -12,7 +12,7 @@ dependencies:
 id: webform_2
 theme: tara
 region: content
-weight: -12
+weight: -11
 provider: null
 plugin: webform_block
 settings:
