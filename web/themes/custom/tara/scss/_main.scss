@@ -306,7 +306,17 @@ nav.pager {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
   gap: 10px;
+}
+#block-link {
+  position: fixed;
+  right: 3%;
 
+  p {
+    margin: 0;
+  }
+
+  #icon {
+    max-width: 35px;
+  }
 }

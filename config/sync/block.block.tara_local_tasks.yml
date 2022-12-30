@@ -9,7 +9,7 @@ _core:
 id: tara_local_tasks
 theme: tara
 region: content
-weight: 0
+weight: 3
 provider: null
 plugin: local_tasks_block
 settings:

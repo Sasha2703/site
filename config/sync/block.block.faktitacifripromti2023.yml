@@ -12,7 +12,7 @@ dependencies:
 id: faktitacifripromti2023
 theme: tara
 region: content
-weight: -6
+weight: -10
 provider: null
 plugin: 'block_content:a034ab28-32d0-4ffc-89aa-6c9b6dbfc53c'
 settings:

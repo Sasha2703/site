@@ -1695,6 +1695,19 @@ nav.pager {
   gap: 10px;
 }
 
+#block-link {
+  position: fixed;
+  right: 3%;
+}
+
+#block-link p {
+  margin: 0;
+}
+
+#block-link #icon {
+  max-width: 35px;
+}
+
 /* Block Regions
 --------------------------*/
 .block-title {
@@ -3252,18 +3265,7 @@ nav.pager::after {
 .view-committee-s .views-block-org .views-field-field-image-committee img {
   width: 220px;
   height: auto;
-}
-
-.view-committee-s .views-block-org .views-field-field-image-committee img[alt="Тетяна Роїк"] {
-  width: 272px;
-}
-
-.view-committee-s .views-block-org .views-field-field-image-committee img[alt="Олександр Васільєв"] {
-  width: 330px;
-}
-
-.view-committee-s .views-block-org .views-field-field-image-committee img[alt="ОлександрВасільєв"] {
-  width: 263px;
+  min-width: 220px;
 }
 
 .view-committee-s .views-block-org .views-field-body {

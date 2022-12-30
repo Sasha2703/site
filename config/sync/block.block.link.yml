@@ -1,0 +1,25 @@
+uuid: 5fed7628-d201-4e07-9231-274cb3600aaf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f28e4b1a-71d9-4ca0-a3e6-1ae485cbf280'
+  module:
+    - block_content
+  theme:
+    - tara
+id: link
+theme: tara
+region: content_top
+weight: -14
+provider: null
+plugin: 'block_content:f28e4b1a-71d9-4ca0-a3e6-1ae485cbf280'
+settings:
+  id: 'block_content:f28e4b1a-71d9-4ca0-a3e6-1ae485cbf280'
+  label: Link
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

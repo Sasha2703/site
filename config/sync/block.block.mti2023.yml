@@ -12,7 +12,7 @@ dependencies:
 id: mti2023
 theme: tara
 region: content
-weight: -10
+weight: -14
 provider: null
 plugin: 'block_content:a034a17f-a816-48f0-af12-e9a755fe899a'
 settings:

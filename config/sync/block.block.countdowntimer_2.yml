@@ -10,12 +10,12 @@ dependencies:
 id: countdowntimer_2
 theme: tara
 region: content
-weight: -9
+weight: -13
 provider: null
 plugin: jquery_countdown_timer
 settings:
   id: jquery_countdown_timer
-  label: 'До кінця реєстрації залишилося'
+  label: 'There is still time to register'
   label_display: visible
   provider: jquery_countdown_timer
   countdown_datetime: '2023-01-01 00:00:00'

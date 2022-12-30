@@ -12,7 +12,7 @@ dependencies:
 id: reestraciya
 theme: tara
 region: content
-weight: -7
+weight: -11
 provider: null
 plugin: 'block_content:bafd869c-7edc-4e9f-b4b0-3497e54a42af'
 settings:
