@@ -3290,6 +3290,12 @@ nav.pager::after {
   gap: 30px;
 }
 
+@media (max-width: 400px) {
+  .views-partners {
+    gap: 20px;
+  }
+}
+
 .views-partners:first-child {
   display: flex;
   gap: 0;
@@ -3299,6 +3305,25 @@ nav.pager::after {
 .views-field-field-organizers-and-partners img {
   width: 220px;
   border-radius: 15px;
+  min-width: 220px;
+}
+
+@media (max-width: 500px) {
+  .views-field-field-organizers-and-partners img {
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .views-field-field-organizers-and-partners img {
+    min-width: 180px;
+  }
+}
+
+@media (max-width: 360px) {
+  .views-field-field-organizers-and-partners img {
+    min-width: 150px;
+  }
 }
 
 .views-field-field-organizers-and-partners img[alt="Вітовта Великого"] {
@@ -3310,6 +3335,12 @@ nav.pager::after {
   min-width: 555px;
 }
 
+@media (max-width: 600px) {
+  .views-field-field-organizers-and-partners img[alt="ЛНТУ"] {
+    min-width: auto;
+  }
+}
+
 .views-field-field-name {
   align-items: center;
   display: flex;
@@ -3318,6 +3349,18 @@ nav.pager::after {
 .views-field-field-name .field-content {
   font-size: 22px;
   font-style: italic;
+}
+
+@media (max-width: 480px) {
+  .views-field-field-name .field-content {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .views-field-field-name .field-content {
+    font-size: 14px;
+  }
 }
 
 .view-committee-s .views-block-org {
@@ -3384,6 +3427,24 @@ nav.pager::after {
 @media (max-width: 991px) {
   span.name-professors {
     font-size: 18px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .link-article {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .link-article {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 370px) {
+  .link-article {
+    font-size: 12px;
   }
 }
 

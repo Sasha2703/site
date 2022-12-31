@@ -1,6 +1,9 @@
 .views-partners {
   display: flex;
   gap: 30px;
+  @media (max-width: 400px) {
+    gap: 20px;
+  }
 }
 .views-partners:first-child {
   display: flex;
@@ -10,6 +13,16 @@
 .views-field-field-organizers-and-partners img{
   width: 220px;
   border-radius: 15px;
+  min-width: 220px;
+  @media (max-width: 500px) {
+    min-width: 200px;
+  }
+  @media (max-width: 400px) {
+    min-width: 180px;
+  }
+  @media (max-width: 360px) {
+    min-width: 150px;
+  }
 }
 .views-field-field-organizers-and-partners img[alt="Вітовта Великого"]{
   border-radius: 0;
@@ -17,6 +30,9 @@
 .views-field-field-organizers-and-partners img[alt="ЛНТУ"]{
   width: 100%;
   min-width: 555px;
+  @media (max-width: 600px) {
+    min-width: auto;
+  }
 }
 .views-field-field-name {
   align-items: center;
@@ -24,6 +40,12 @@
   .field-content {
     font-size: 22px;
     font-style: italic;
+    @media (max-width: 480px) {
+      font-size: 16px;
+    }
+    @media (max-width: 400px) {
+      font-size: 14px;
+    }
   }
 }
 .view-committee-s {
@@ -84,5 +106,20 @@
 @media (max-width: 991px) {
   span.name-professors {
     font-size: 18px !important;
+  }
+}
+@media (max-width: 480px) {
+  .link-article {
+    font-size: 16px;
+  }
+}
+@media (max-width: 420px) {
+  .link-article {
+    font-size: 14px;
+  }
+}
+@media (max-width: 370px) {
+  .link-article {
+    font-size: 12px;
   }
 }
