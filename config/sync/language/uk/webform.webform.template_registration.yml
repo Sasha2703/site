@@ -1,0 +1,7 @@
+title: Реєстрація
+description: 'Шаблон реєстраційної форми.'
+settings:
+  confirmation_message: 'Дякуємо за реєстрацію.'
+handlers:
+  email_notification:
+    label: 'Сповіщення електронною поштою'

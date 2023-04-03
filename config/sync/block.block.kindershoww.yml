@@ -1,0 +1,30 @@
+uuid: fe13fa34-df3b-4f18-a846-22eb90bf0571
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:front:474d988e-c2e6-4f97-bdd7-1d380c2d7a3c'
+  module:
+    - block_content
+    - system
+  theme:
+    - vani
+id: kindershoww
+theme: vani
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:474d988e-c2e6-4f97-bdd7-1d380c2d7a3c'
+settings:
+  id: 'block_content:474d988e-c2e6-4f97-bdd7-1d380c2d7a3c'
+  label: 'KINDER SHOWW'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

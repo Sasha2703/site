@@ -1,0 +1,8 @@
+uuid: d988da8c-8905-464b-86b9-294976654b9b
+langcode: en
+status: true
+dependencies: {  }
+id: front
+label: Front
+revision: 0
+description: ''

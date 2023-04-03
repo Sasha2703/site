@@ -1,0 +1,8 @@
+title: 'Зворотній зв''язок'
+settings:
+  confirmation_message: 'Дякуємо за відгук.'
+handlers:
+  email_confirmation:
+    label: 'Підтвердження поштою'
+  email_notification:
+    label: 'Електронне сповіщення'

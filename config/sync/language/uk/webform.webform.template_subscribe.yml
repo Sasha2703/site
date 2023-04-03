@@ -1,0 +1,6 @@
+title: Підписатися
+settings:
+  confirmation_message: 'Дякуємо за підписку.'
+handlers:
+  email_notification:
+    label: 'Сповіщення електронною поштою'

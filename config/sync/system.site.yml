@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 3763f831-494f-4ffc-9f1e-a2dc3b6ca67b
-name: МТІ-2023
+name: 'Аніматори Червоноград'
 mail: o.panasiuk@internetdevels.com
 slogan: ''
 page:
@@ -11,4 +11,4 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: en
+default_langcode: uk

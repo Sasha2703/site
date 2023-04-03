@@ -1,0 +1,36 @@
+uuid: 9a579d67-bc47-4f63-bd42-309605e7c013
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.front
+    - field.field.block_content.front.body
+    - field.field.block_content.front.field_front_image
+  module:
+    - image
+    - text
+id: block_content.front.default
+targetEntityType: block_content
+bundle: front
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_front_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

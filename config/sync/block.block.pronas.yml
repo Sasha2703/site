@@ -1,0 +1,30 @@
+uuid: 0e207976-9fb8-46b4-98a5-ac577d2f04e5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:front:de540079-2114-4ebc-9935-dadfb0ac416f'
+  module:
+    - block_content
+    - system
+  theme:
+    - vani
+id: pronas
+theme: vani
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:de540079-2114-4ebc-9935-dadfb0ac416f'
+settings:
+  id: 'block_content:de540079-2114-4ebc-9935-dadfb0ac416f'
+  label: 'ПРО НАС'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

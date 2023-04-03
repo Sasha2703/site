@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Variables
  */
@@ -879,6 +880,7 @@ a.active {
 --------------------------------*/
 .main-wrapper {
   width: 100%;
+  background: linear-gradient(#f2f4ff, 45%, transparent);
 }
 
 /* Layout -> containers */
@@ -2074,8 +2076,6 @@ ol.search-results {
   position: relative;
   background: var(--content-bg);
   width: 100%;
-  margin: 2rem 0 1rem 0;
-  padding: 0;
 }
 
 .region-highlighted {
@@ -2347,6 +2347,10 @@ ol.search-results {
 
 .scrolltop:hover {
   background: var(--theme-color-two);
+}
+
+img[alt="Міккі Маус"] {
+  max-width: 300px;
 }
 
 /* Custom Shortcodes

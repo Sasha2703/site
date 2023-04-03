@@ -29,7 +29,7 @@
 }
 /* HTML and Body
 ---------------------------------------- */
-html:focus-within {  
+html:focus-within {
   scroll-behavior: smooth;
 }
 html,
@@ -458,15 +458,15 @@ select {
 }
 ::-webkit-input-placeholder {
   color: var(--footer-color);
-  opacity: 0.6; 
+  opacity: 0.6;
 }
 :-ms-input-placeholder {
   color: var(--footer-color);
-  opacity: 0.6; 
+  opacity: 0.6;
 }
 ::placeholder {
   color: var(--footer-color);
-  opacity: 0.6;  
+  opacity: 0.6;
 }
 /* Drupal Form */
 .form-item {
@@ -642,7 +642,7 @@ td {
   html:focus-within {
    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {

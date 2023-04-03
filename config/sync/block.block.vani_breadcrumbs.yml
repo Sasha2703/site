@@ -11,7 +11,7 @@ _core:
 id: vani_breadcrumbs
 theme: vani
 region: page_header
-weight: -5
+weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:

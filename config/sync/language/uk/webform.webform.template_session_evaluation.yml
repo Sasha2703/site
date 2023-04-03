@@ -1,0 +1,6 @@
+title: 'Оцінка сеансу'
+settings:
+  confirmation_message: 'Дякуємо за відгук.'
+handlers:
+  email_notification:
+    label: 'Сповіщення електронною поштою'
