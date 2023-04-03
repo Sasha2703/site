@@ -227,7 +227,7 @@ display:
         type: some
         options:
           offset: 0
-          items_per_page: 17
+          items_per_page: 18
       exposed_form:
         type: basic
         options:

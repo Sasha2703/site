@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6c66249ba27b73b1115f30273b32309",
+    "content-hash": "de925fab3b3a7462316bc882162d2c26",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1771,6 +1771,159 @@
             "time": "2022-12-07T13:36:57+00:00"
         },
         {
+            "name": "drupal/corporate_lite",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/corporate_lite.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/corporate_lite-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "883eb4f91fea27f58cd0859e6b54cc7b9b06e29a"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1606824937",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Stavros Kounis (skounis)",
+                    "homepage": "https://www.drupal.org/u/skounis",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Soukri Kechagia (skechagia)",
+                    "homepage": "https://www.drupal.org/u/skech",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Vasilis Kechagias (vkech)",
+                    "homepage": "https://www.drupal.org/u/vkech",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Giorgos Konispoliatis (Geokon)",
+                    "homepage": "https://www.drupal.org/u/geokon",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "vkech",
+                    "homepage": "https://www.drupal.org/user/1451830"
+                }
+            ],
+            "description": "A free mobile-first Drupal 8 theme and the core of our Premium Corporate+ modern mega-theme.",
+            "homepage": "https://www.drupal.org/project/corporate_lite",
+            "support": {
+                "source": "https://git.drupalcode.org/project/corporate_lite",
+                "issues": "https://www.drupal.org/project/issues/corporate_lite"
+            }
+        },
+        {
+            "name": "drupal/drupal8_parallax_theme",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/drupal8_parallax_theme.git",
+                "reference": "2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/drupal8_parallax_theme-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "edf3b4c9a1d4ce4f7c57f4fa8603403dfb7237a9"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.2",
+                    "datestamp": "1606152168",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "zymphonies-team",
+                    "homepage": "https://www.drupal.org/user/2280310"
+                }
+            ],
+            "description": "Designed & Developed by <a href=http://www.zymphonies.com>Zymphonies</a><br/>Contact us for any kind of Drupal services <a href=mailto:info@zymphonies.com>info@zymphonies.com</a>",
+            "homepage": "https://www.drupal.org/project/drupal8_parallax_theme",
+            "support": {
+                "source": "https://git.drupalcode.org/project/drupal8_parallax_theme"
+            }
+        },
+        {
+            "name": "drupal/drupal8_zymphonies_theme",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/drupal8_zymphonies_theme.git",
+                "reference": "2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/drupal8_zymphonies_theme-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "1bbcd1ab0d6144eb7fa3cb0e3f6676158e4c0b95"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.2",
+                    "datestamp": "1606280375",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "zymphonies-team",
+                    "homepage": "https://www.drupal.org/user/2280310"
+                }
+            ],
+            "description": "Designed & Developed by <a href=http://www.zymphonies.com>Zymphonies</a><br/>Contact us for any kind of Drupal services <a href=mailto:info@zymphonies.com>info@zymphonies.com</a>",
+            "homepage": "https://www.drupal.org/project/drupal8_zymphonies_theme",
+            "support": {
+                "source": "https://git.drupalcode.org/project/drupal8_zymphonies_theme"
+            }
+        },
+        {
             "name": "drupal/jquery_countdown_timer",
             "version": "1.3.0",
             "source": {
@@ -1893,6 +2046,75 @@
             "homepage": "https://www.drupal.org/project/mailsystem",
             "support": {
                 "source": "https://git.drupalcode.org/project/mailsystem"
+            }
+        },
+        {
+            "name": "drupal/showcase_lite",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/showcase_lite.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/showcase_lite-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "f82ee6733f0bd768a8766d66252ce17ec4833c5e"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1607417922",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Stavros Kounis (skounis)",
+                    "homepage": "https://www.drupal.org/u/skounis",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Soukri Kechagia (skechagia)",
+                    "homepage": "https://www.drupal.org/u/skech",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Vasilis Kechagias (vkech)",
+                    "homepage": "https://www.drupal.org/u/vkech",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Giorgos Konispoliatis (Geokon)",
+                    "homepage": "https://www.drupal.org/u/geokon",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "skounis",
+                    "homepage": "https://www.drupal.org/user/877552"
+                },
+                {
+                    "name": "vkech",
+                    "homepage": "https://www.drupal.org/user/1451830"
+                }
+            ],
+            "description": "A free version of Showcase+, our Drupal theme for creatives, trendsetters, design and development studios.",
+            "homepage": "https://www.drupal.org/project/showcase_lite",
+            "support": {
+                "source": "https://git.drupalcode.org/project/showcase_lite",
+                "issues": "https://www.drupal.org/project/issues/showcase_lite"
             }
         },
         {
@@ -2172,6 +2394,50 @@
             "homepage": "https://www.drupal.org/project/tara",
             "support": {
                 "source": "https://git.drupalcode.org/project/tara"
+            }
+        },
+        {
+            "name": "drupal/vani",
+            "version": "9.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/vani.git",
+                "reference": "9.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/vani-9.1.1.zip",
+                "reference": "9.1.1",
+                "shasum": "e030a4ca61c60d15ac0ca430ccf6eeeb58fcf48f"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "9.1.1",
+                    "datestamp": "1661613274",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "A light weight, Clean, flexible, fully responsive and multi-purpose Drupal 8, 9 theme by <a href=\"https://drupar.com\" target=\"_blank\">Drupar.com</a><br /><a href=\"https://drupar.com/theme/vani\" target=\"_blank\">Theme Page</a> | <a href=\"https://drupar.com/vani-documentation\" target=\"_blank\">Theme Documentation</a> | <a href=\"https://drupar.com/theme/vanipro\" target=\"_blank\">VaniPro</a>",
+            "homepage": "https://www.drupal.org/project/vani",
+            "support": {
+                "source": "https://git.drupalcode.org/project/vani"
             }
         },
         {

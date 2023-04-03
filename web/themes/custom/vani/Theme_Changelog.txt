@@ -1,0 +1,76 @@
++===============================+
+Version 8.1.0
+22 March, 2020
++===============================+
+# Initial version
+
+
++===============================+
+Version 8.1.1
+01 May, 2020
++===============================+
+# Fixed all known bugs.
+# Theme is now compatible on Drupal 9 also.
+
+
++===============================+
+Version 8.1.2
+23 May, 2020
++===============================+
+# Fixed slider image upload issue.
+# Fixed minor know bugs.
+# Tested theme on Drupal version 8.8.6 and 9.0.0-rc1
+# Theme tested on PHP 7.4.5
+
+
++===============================+
+Version 8.1.3
+06 March, 2021
++===============================+
+# Added required css for field label.
+# Added sass files.
+# New grid and flex based layouts.
+# Added option to show sidebar on frontpage.
+# Moved "Custom CSS Codes" section under "Insert Codes" in theme settings.
+
+
++===============================+
+Version 9.1.0
+14 Aug, 2022
++===============================+
+# Base font size for mobile devices is 16px, and 18px for large screens.
+
+# Fixed calendar display issue.
+https://www.drupal.org/project/vani/issues/3185994
+
+# Fixed overlapping search form clear icon.
+https://www.drupal.org/project/vani/issues/3212796
+
+# Fixed display issue of third level drop-down menu when the menu item is at extreme right.
+https://www.drupal.org/project/vani/issues/3197925
+
+# Remove responsive.css This is now a scss file.
+
+# Added feature to close the full page search form using "Esc" key.
+
+# Added new template file:
+- menu.html.twig
+- views-view.html.twig
+
+# Added an option in theme settings to load google font from local or from Google CDN.
+# Theme now uses rem unit instead of em unit.
+# Better display for 'Site Branding' block region.
+# New full page search form close icon.
+# New improved display of comment form.
+# New improved display of comments.
+# Added new shortcode 'text-justify'
+# Added bootstrap font icons. This can be enabled from theme settings.
+
+
++===============================+
+Version 9.1.1
+27 Aug, 2022
++===============================+
+# Added two new block regions: 'Header Top Left' and 'Header Top Right'
+# Removed unused css files.
+# Other minor improvements
