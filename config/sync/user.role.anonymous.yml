@@ -1,10 +1,11 @@
 uuid: 4824d585-d6a8-48eb-9754-93efce4ac067
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
     - filter.format.restricted_html
   module:
+    - call_now_button
     - comment
     - contact
     - filter
@@ -22,6 +23,7 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'administer call now button'
   - 'administer languages'
   - 'search content'
   - 'use text format restricted_html'

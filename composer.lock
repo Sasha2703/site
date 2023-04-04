@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de925fab3b3a7462316bc882162d2c26",
+    "content-hash": "52eed8a7e78fa4aec2728f30cc8bb109",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1424,6 +1424,54 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/blazy",
                 "issues": "https://drupal.org/project/issues/blazy"
+            }
+        },
+        {
+            "name": "drupal/call_now_button",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/call_now_button.git",
+                "reference": "1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/call_now_button-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "93143a707cfb9dbaae8f990126901057a4c12b40"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.1",
+                    "datestamp": "1654281650",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Neslee Canil Pinto",
+                    "homepage": "https://www.drupal.org/user/3580850"
+                }
+            ],
+            "description": "Call Now Button places button to the bottom of the screen which is only visible for your mobile visitors.",
+            "homepage": "https://www.drupal.org/project/call_now_button",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/call_now_button",
+                "issues": "https://www.drupal.org/project/issues/call_now_button"
             }
         },
         {

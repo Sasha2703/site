@@ -1,5 +1,5 @@
 uuid: 0f00323a-9100-4420-b666-2aab84c0dec0
-langcode: en
+langcode: uk
 status: true
 dependencies:
   theme:
@@ -9,7 +9,7 @@ _core:
 id: vani_local_actions
 theme: vani
 region: content
-weight: -6
+weight: -7
 provider: null
 plugin: local_actions_block
 settings:

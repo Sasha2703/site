@@ -1,5 +1,5 @@
 uuid: 8b9da798-cb49-416b-a8f2-1b1bd654114a
-langcode: en
+langcode: uk
 status: true
 dependencies:
   module:
@@ -11,7 +11,7 @@ _core:
 id: vani_help
 theme: vani
 region: content
-weight: -7
+weight: -8
 provider: null
 plugin: help_block
 settings:

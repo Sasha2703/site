@@ -1,5 +1,5 @@
 uuid: 641b767f-a2a0-4f0e-a511-e1a86363e669
-langcode: en
+langcode: uk
 status: true
 dependencies:
   theme:
@@ -9,7 +9,7 @@ _core:
 id: vani_local_tasks
 theme: vani
 region: content
-weight: -8
+weight: -9
 provider: null
 plugin: local_tasks_block
 settings:

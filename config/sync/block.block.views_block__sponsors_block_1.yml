@@ -1,0 +1,29 @@
+uuid: 7dc0c2c7-9607-4e81-8fa2-8eb1066393e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sponsors
+  module:
+    - system
+    - views
+  theme:
+    - vani
+id: views_block__sponsors_block_1
+theme: vani
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:sponsors-block_1'
+settings:
+  id: 'views_block:sponsors-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: '10'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /heroes

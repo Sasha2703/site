@@ -1,5 +1,18 @@
 _core:
   default_config_hash: 8_qX6deS-sD3xX39HCLpemQQ6C7YuiKujIdB3qH7cZI
+langcode: uk
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: 'public://favicon_1.ico'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://logo.png'
+  use_default: false
 all_icons_show: 1
 facebook_url: 'https://www.facebook.com/idewdot'
 twitter_url: 'https://twitter.com/dewdots'
@@ -13,7 +26,7 @@ github_url: 'https://github.com/'
 vk_url: ''
 slider_show: 1
 slider_code: ''
-slider_image: ''
+slider_image: {  }
 slider_image_path: ''
 front_sidebar: 0
 google_font: local
@@ -27,3 +40,5 @@ copyright_text: 1
 scrolltotop_on: 1
 styling: 0
 styling_code: ''
+font_icon_fontawesome5: 0
+font_icon_fontawesome6: 0

@@ -1019,7 +1019,7 @@ a.active {
 
 .site-branding img {
   width: auto;
-  max-height: 36px;
+  max-height: 75px;
 }
 
 .site-branding a {
@@ -1328,7 +1328,6 @@ ul.main-menu ul.submenu ul.submenu li {
   position: relative;
   width: 100%;
   margin: 0;
-  padding: 5rem 0 6rem;
   text-align: center;
 }
 
@@ -1622,6 +1621,18 @@ ul.main-menu ul.submenu ul.submenu li {
 
 .homepage-content .block-title::after {
   transform: translateX(10px);
+}
+
+.view-price-view .views-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.view-price-view .views-row .views-col {
+  min-width: 220px;
+  border: 1px silver solid;
+  border-radius: 15px;
 }
 
 /* Drupal Core
@@ -2119,6 +2130,40 @@ ol.search-results {
   padding-top: 2rem;
 }
 
+#block-kindershoww .block-content, #block-pronas .block-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#block-kindershoww .block-content .field--name-field-front-image, #block-pronas .block-content .field--name-field-front-image {
+  margin-top: -70px;
+}
+
+#block-pronas .block-content .field--name-field-front-image {
+  margin-top: -40px;
+}
+
+#block-views-block-slider-block-1 .block-title, #block-webform .block-title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#block-views-block-slider-block-1 .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form, #block-webform .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+#block-views-block-slider-block-1 .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form input, #block-webform .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form input {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.call-now-button-text {
+  display: none;
+}
+
 /* Comments
 --------------------------------------*/
 #node-comment {
@@ -2350,7 +2395,7 @@ ol.search-results {
 }
 
 img[alt="Міккі Маус"] {
-  max-width: 300px;
+  max-width: 400px;
 }
 
 /* Custom Shortcodes
@@ -2701,6 +2746,49 @@ button.button-link:hover {
   }
   .menu-item-has-children::after {
     right: 1rem;
+  }
+  .scrolltop {
+    display: none !important;
+  }
+  img[alt="Міккі Маус"] {
+    max-width: 280px;
+  }
+  #block-kindershoww .block-content .field--name-field-front-image, #block-pronas .block-content .field--name-field-front-image {
+    margin-top: -45px;
+  }
+  .gmaps {
+    width: 100%;
+  }
+  .view-price-view .views-row {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 500px) {
+  img[alt="Міккі Маус"] {
+    max-width: 240px;
+  }
+  #block-kindershoww .block-content .field--name-field-front-image, #block-pronas .block-content .field--name-field-front-image {
+    margin-top: -25px;
+  }
+  #block-pronas .block-content {
+    flex-direction: column;
+  }
+  #block-webform .block-title {
+    line-height: 1.3;
+  }
+  #block-webform .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+    margin-top: 10px;
+  }
+  #block-webform .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form input {
+    height: 50px;
+    padding-left: 10px;
+  }
+  .col-sponsors {
+    width: 50% !important;
   }
 }
 

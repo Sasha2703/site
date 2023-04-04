@@ -1,0 +1,30 @@
+uuid: 616dfd31-3992-4055-88d7-c8f6318c862b
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.zalishte_svoyu_zayavku_i_mi_vam_
+  module:
+    - system
+    - webform
+  theme:
+    - vani
+id: webform
+theme: vani
+region: content
+weight: -1
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Залиште свою заявку і ми вам зателефонуємо'
+  label_display: visible
+  provider: webform
+  webform_id: zalishte_svoyu_zayavku_i_mi_vam_
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/price\r\n/heroes\r\n/feedback"

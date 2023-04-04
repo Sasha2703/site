@@ -19,6 +19,7 @@
         "cweagans/composer-patches": "^1.9",
         "drupal/admin_toolbar": "^3.2",
         "drupal/blazy": "^2.13",
+        "drupal/call_now_button": "^1.0",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",

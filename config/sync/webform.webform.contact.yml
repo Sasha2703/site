@@ -1,5 +1,5 @@
 uuid: f7d02b8d-84c4-4f90-9484-c8e1b10cff38
-langcode: en
+langcode: uk
 status: open
 dependencies:
   enforced:
@@ -290,7 +290,7 @@ handlers:
       sender_mail: ''
       sender_name: ''
       subject: '[webform_submission:values:subject:raw]'
-      body: 'Ви успішно зареєструвалися на наукову конференцію.'
+      body: '[webform_submission:values:message:value]'
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true

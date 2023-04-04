@@ -133,3 +133,15 @@
 .homepage-content .block-title::after {
   transform: translateX(10px);
 }
+.view-price-view {
+  .views-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    .views-col {
+      min-width: 220px;
+      border: 1px silver solid;
+      border-radius: 15px;
+    }
+  }
+}

@@ -73,3 +73,43 @@
 .content-bottom .block {
   padding-top: 2rem;
 }
+#block-kindershoww, #block-pronas {
+  .block-content {
+    display: flex;
+    justify-content: space-between;
+
+    .field--name-field-front-image {
+      margin-top: -70px;
+    }
+  }
+}
+#block-pronas {
+  .block-content {
+    .field--name-field-front-image {
+      margin-top: -40px;
+    }
+  }
+}
+#block-views-block-slider-block-1, #block-webform {
+  .block-title {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+
+    input {
+      height: 50px;
+      padding-left: 10px;
+      &::placeholder {
+
+      }
+    }
+  }
+}
+.call-now-button-text {
+  display: none;
+}

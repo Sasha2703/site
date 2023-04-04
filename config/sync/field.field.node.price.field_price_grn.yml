@@ -1,0 +1,23 @@
+uuid: e5deefe5-b081-4595-b6c4-8be29351894d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_grn
+    - node.type.price
+id: node.price.field_price_grn
+field_name: field_price_grn
+entity_type: node
+bundle: price
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: грн
+field_type: integer

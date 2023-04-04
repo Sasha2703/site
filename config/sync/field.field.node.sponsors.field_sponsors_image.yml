@@ -11,7 +11,7 @@ id: node.sponsors.field_sponsors_image
 field_name: field_sponsors_image
 entity_type: node
 bundle: sponsors
-label: 'Sponsors image'
+label: Image
 description: ''
 required: false
 translatable: false

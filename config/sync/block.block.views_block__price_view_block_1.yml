@@ -1,0 +1,29 @@
+uuid: 88a35607-6270-445b-a2ca-ec23c905466f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.price_view
+  module:
+    - system
+    - views
+  theme:
+    - vani
+id: views_block__price_view_block_1
+theme: vani
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:price_view-block_1'
+settings:
+  id: 'views_block:price_view-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /price

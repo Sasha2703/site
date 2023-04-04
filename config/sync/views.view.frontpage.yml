@@ -1,5 +1,5 @@
 uuid: 795fff0e-f481-4348-85da-15f3e7e1aa36
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -231,6 +231,7 @@ display:
     display_plugin: feed
     position: 2
     display_options:
+      enabled: false
       pager:
         type: some
         options:

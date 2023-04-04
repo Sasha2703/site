@@ -2,6 +2,3 @@ display:
   default:
     display_options:
       title: 'Main sponsors'
-  block_2:
-    display_options:
-      title: 'Media sponsors'
