@@ -17,7 +17,7 @@ elements: |-
     '#type': tel
     '#title': 'Введіть ваш номер телефону'
     '#title_display': none
-    '#placeholder': 380XXXXXXXXX
+    '#placeholder': +380XXXXXXXXX
     '#required': true
 css: ''
 javascript: ''

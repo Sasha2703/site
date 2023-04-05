@@ -19,5 +19,5 @@ settings:
   min: null
   max: null
   prefix: 'До '
-  suffix: діток
+  suffix: ' діток'
 field_type: integer

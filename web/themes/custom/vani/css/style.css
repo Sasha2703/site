@@ -1633,6 +1633,87 @@ ul.main-menu ul.submenu ul.submenu li {
   min-width: 220px;
   border: 1px silver solid;
   border-radius: 15px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
+}
+
+.view-price-view .views-row .views-col .views-field-field-icons .image-field {
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.view-price-view .views-row .views-col .views-field {
+  text-align: center;
+  font-size: 20px;
+}
+
+.view-price-view .views-row .views-col .views-field-field-name-price {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.view-price-view .views-row .views-col .views-field-field-price-grn {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.view-price-view .views-row .views-col .views-field-field-s {
+  margin: 15px 0;
+}
+
+.view-price-view .views-row .views-col .views-field-body {
+  font-style: italic;
+}
+
+.view-price-view .views-row .views-col .views-field-body p {
+  margin: 0 0 0.4rem 0;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.view-price-view .views-row .views-col .views-field-body p::after, .view-price-view .views-row .views-col .views-field-body p::before {
+  content: "🎉";
+  font-style: normal;
+}
+
+.view-price-view .views-row .col-1 .views-field-body {
+  color: blue;
+}
+
+.view-price-view .views-row .col-2 .views-field-body {
+  color: red;
+}
+
+.view-price-view .views-row .col-3 .views-field-body {
+  color: orange;
+}
+
+.views-field-field-sponsors-image {
+  margin: 10px;
+}
+
+.views-field-field-sponsors-image .image-field {
+  margin: 0 auto;
+}
+
+.slick__slide {
+  margin: 10px;
+  padding: 5px;
+  border: 1px silver solid;
+  border-radius: 15px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
+}
+
+.slick__slide .views-field-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.slick-slide img {
+  border-radius: 15px;
 }
 
 /* Drupal Core
@@ -2130,6 +2211,10 @@ ol.search-results {
   padding-top: 2rem;
 }
 
+#block-kindershoww .block-title, #block-pronas .block-title {
+  font-size: 40px;
+}
+
 #block-kindershoww .block-content, #block-pronas .block-content {
   display: flex;
   justify-content: space-between;
@@ -2139,6 +2224,18 @@ ol.search-results {
   margin-top: -70px;
 }
 
+#block-kindershoww .block-content .field--name-body, #block-pronas .block-content .field--name-body {
+  font-style: italic;
+}
+
+#block-kindershoww .block-content .field--name-body p, #block-pronas .block-content .field--name-body p {
+  margin: 0 0 0.5rem 0;
+}
+
+#block-pronas .block-title {
+  font-size: 35px;
+}
+
 #block-pronas .block-content .field--name-field-front-image {
   margin-top: -40px;
 }
@@ -2146,6 +2243,7 @@ ol.search-results {
 #block-views-block-slider-block-1 .block-title, #block-webform .block-title {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 #block-views-block-slider-block-1 .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form, #block-webform .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form {
@@ -2156,8 +2254,17 @@ ol.search-results {
 }
 
 #block-views-block-slider-block-1 .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form input, #block-webform .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form input {
+  max-width: 210px;
   height: 50px;
   padding-left: 10px;
+  font-size: 24px;
+  border-radius: 25px;
+  border: 2px solid silver;
+}
+
+#block-views-block-slider-block-1 .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form .form-submit, #block-webform .webform-submission-zalishte-svoyu-zayavku-i-mi-vam__form .form-submit {
+  padding: 7px 20px;
+  border: none;
 }
 
 .call-now-button-text {
@@ -2762,6 +2869,16 @@ button.button-link:hover {
   .view-price-view .views-row {
     flex-wrap: wrap;
   }
+  .view-price-view .views-row .views-col .views-field {
+    font-size: 18px;
+  }
+  .view-price-view .views-row .views-col .views-field-field-name-price {
+    font-size: 32px;
+  }
+  .slick__slide .views-field-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -2789,6 +2906,25 @@ button.button-link:hover {
   }
   .col-sponsors {
     width: 50% !important;
+  }
+  .slick__slide .views-field-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .slick__slide {
+    margin: 10px;
+    padding: 5px;
+    border: 1px silver solid;
+    border-radius: 15px;
+  }
+  .slick__slide .views-field-title {
+    font-size: 16px;
+  }
+  .slick__slide .views-field-body {
+    font-size: 13px;
   }
 }
 

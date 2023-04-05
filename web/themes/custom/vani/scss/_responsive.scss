@@ -24,6 +24,20 @@
   .view-price-view {
     .views-row {
       flex-wrap: wrap;
+      .views-col {
+        .views-field {
+          font-size: 18px;
+        }
+        .views-field-field-name-price {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+  .slick__slide {
+    .views-field-title {
+      font-size: 24px;
+      margin-bottom: 10px;
     }
   }
 }
@@ -65,6 +79,26 @@
   .col-sponsors {
     width: 50% !important;
   }
+  .slick__slide {
+    .views-field-title {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+  }
+}
+@media (max-width: 400px) {
+.slick__slide {
+  margin: 10px;
+  padding: 5px;
+  border: 1px silver solid;
+  border-radius: 15px;
+  .views-field-title {
+   font-size: 16px;
+  }
+  .views-field-body {
+    font-size: 13px;
+  }
+}
 }
 @media (min-width: 768px) {
   html {

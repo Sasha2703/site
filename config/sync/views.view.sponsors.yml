@@ -258,7 +258,7 @@ display:
         type: grid
         options:
           grouping: {  }
-          columns: 3
+          columns: 2
           automatic_width: true
           alignment: horizontal
           row_class_custom: row-sponsors

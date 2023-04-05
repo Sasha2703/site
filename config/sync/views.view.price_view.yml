@@ -8,7 +8,7 @@ dependencies:
     - field.storage.node.field_name_price
     - field.storage.node.field_price_grn
     - field.storage.node.field_s
-    - image.style.medium
+    - image.style.thumbnail
     - node.type.price
   module:
     - image
@@ -84,7 +84,7 @@ display:
           type: image
           settings:
             image_link: ''
-            image_style: medium
+            image_style: thumbnail
             image_loading:
               attribute: lazy
           group_column: ''

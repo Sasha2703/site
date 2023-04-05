@@ -1,6 +1,6 @@
 uuid: c72ecf8b-5695-433e-b167-ab4293243921
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.slider

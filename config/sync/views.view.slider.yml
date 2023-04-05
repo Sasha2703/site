@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.body
     - field.storage.node.field_slide
+    - image.style.large
     - node.type.slider
   module:
     - image
@@ -146,7 +147,7 @@ display:
           type: image
           settings:
             image_link: ''
-            image_style: ''
+            image_style: large
             image_loading:
               attribute: lazy
           group_column: ''
